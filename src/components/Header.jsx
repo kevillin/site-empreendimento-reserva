@@ -5,7 +5,16 @@ const Header = () => {
     <div className='Header'>
       <div>
         <header className='app-header'>
-          <span></span>
+          <div className='info-header'>
+            <nav className='info-nav'>
+              <p>Espaço-Logo-img</p>
+              <p>Espaço-Nav</p>
+              <p>Espaço-informação-extra</p>
+              <p>Tamanho-Header</p>
+              <p>Cores-header</p>
+              <p>Rotas</p>
+            </nav>
+          </div>
         </header>
       </div>
     </div>
