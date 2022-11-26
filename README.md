@@ -1,10 +1,16 @@
 ### Readme: Reserva Parque Clube
 
-- Pegar mídias do empreendimento;
+Projeto colaborativo:
+- Isaque Almeida ();
+- Geomárcia Ramos ();
+- Carlos Augusto ();
+- Kevillin Santos ();
+
+- Pegar mídias do empreendimento; Ok
 - Definir qual o nome do domínio;
 - Definir palavras-chave para busca na Web;
 - Criar a ideia de estrutura;
-- Será utilizado React?
+- Será utilizado React? Sim
 - Quantas seções deve ter?
 - Como faremos para armazenar os dados que os clientes colocarem nos formulários? A integração com o BD.
 
