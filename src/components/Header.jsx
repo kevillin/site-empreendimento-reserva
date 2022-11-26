@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Header() {
+const Header = () => {
   return (
-    <div>NavBar</div>
-  )
+    <div>
+      <header className='app-header'>
+        Header
+      </header>
+    </div>
+  );
 }
 
 export default Header
