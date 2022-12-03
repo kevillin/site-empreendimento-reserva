@@ -1,24 +1,29 @@
-import React from 'react'
+import { React } from 'react';
+import '../App.css';
+import NavBar from './NavBar';
+import portariaReserva from '../medias/media-empreendimento/portaria_email.jpg';
+import WhatsApp from './WhatsApp';
+
 
 const Header = () => {
   return (
     <div className='Header'>
-      <div>
-        <header className='app-header'>
-          <div className='info-header'>
-            <nav className='info-nav'>
-              <p>Espaço-Logo-img</p>
-              <p>Espaço-Nav</p>
-              <p>Espaço-informação-extra</p>
-              <p>Tamanho-Header</p>
-              <p>Cores-header</p>
-              <p>Rotas</p>
-            </nav>
+      <header>
+        <div className='app-header'>
+          <p>Espaço-Logo-img</p>
+          <NavBar />
+        </div>
+        <div className='main'>
+          <img className='image-header' src={portariaReserva} alt="portaria-empreendimento" />
+          <div className='slogan-main'>
+            <h1>Reserva Parque Clube</h1>
+            <h3>Compre o seu apartamento em um dos melhores empreendimentos de Brasília</h3>
           </div>
-        </header>
-      </div>
+        </div>
+        <WhatsApp />
+      </header>
     </div>
   );
 }
 
-export default Header
+export default Header;

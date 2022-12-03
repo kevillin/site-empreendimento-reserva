@@ -1,14 +1,13 @@
-import React from 'react'
+import { React } from 'react'
 import Header from './Header'
-import NavBar from './NavBar'
+import '../styles/index.css'
 
 function Main() {
   return (
     <div>
-      <NavBar />
       <Header />
     </div>
   )
 }
 
-export default Main
+export default Main;
