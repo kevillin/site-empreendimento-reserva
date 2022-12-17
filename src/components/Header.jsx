@@ -3,6 +3,8 @@ import '../App.css';
 import NavBar from './NavBar';
 import portariaReserva from '../medias/media-empreendimento/portaria_email.jpg';
 import WhatsApp from './WhatsApp';
+import FormularioCadastro from './FormularioCadastro';
+import InfoCorretor from './InfoCorretor';
 
 
 const Header = () => {
@@ -21,6 +23,8 @@ const Header = () => {
           </div>
         </div>
         <WhatsApp />
+        <FormularioCadastro />
+        <InfoCorretor />
       </header>
     </div>
   );

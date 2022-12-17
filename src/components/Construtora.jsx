@@ -6,4 +6,6 @@ function Construtora() {
   )
 }
 
+// o botão conheça a construtora pode sair do navbar
+
 export default Construtora
