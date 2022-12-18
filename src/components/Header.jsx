@@ -5,6 +5,7 @@ import portariaReserva from '../medias/media-empreendimento/portaria_email.jpg';
 import WhatsApp from './WhatsApp';
 import FormularioCadastro from './FormularioCadastro';
 import InfoCorretor from './InfoCorretor';
+import headerImage from '../medias/media-empreendimento/logo-header-reserva.png';
 
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
     <div className='Header'>
       <header>
         <div className='app-header'>
-          <p>Espaço-Logo-img</p>
+          <img className='img-logo-header' src={ headerImage } alt='imagem-logo-empreendimento' />
           <NavBar />
         </div>
         <div className='main'>
