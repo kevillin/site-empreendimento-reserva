@@ -5,6 +5,7 @@ import Visitas from "./components/Visitas";
 import Construtora from "./components/Construtora";
 import Documentacao from "./components/Documentacao";
 import Header from "./components/Header";
+import PoliticaPrivacidade from "./components/PoliticaPrivacidade";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" element={<Header />} />
         <Route exact path="/financiamento" element={<Financiamento />} />
         <Route exact path="/visitas" element={<Visitas />} />
+        <Route exact path="/privacidade" element={<PoliticaPrivacidade />} />
         <Route exact path="/construtora" element={<Construtora />} />
         <Route exact path="/documentacao" element={<Documentacao />} />
       </Routes>

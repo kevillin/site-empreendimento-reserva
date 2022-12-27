@@ -37,8 +37,6 @@
   width: 1500px;
   height: 1200px;
   margin-top: -470px;
-  margin-left: 0px;
-  margin-right: 0px;
   background-size: cover;
   position: relative;
 }
@@ -68,4 +66,8 @@
 .img-logo-header {
   max-width: 200px;
   margin-left: 20px;
+}
+
+.table-privacidade {
+  border: 1px solid black;
 }

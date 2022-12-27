@@ -6,6 +6,7 @@ import WhatsApp from './WhatsApp';
 import FormularioCadastro from './FormularioCadastro';
 import InfoCorretor from './InfoCorretor';
 import headerImage from '../medias/media-empreendimento/logo-header-reserva.png';
+import Footer from './Footer';
 
 
 const Header = () => {
@@ -26,6 +27,7 @@ const Header = () => {
         <WhatsApp />
         <FormularioCadastro />
         <InfoCorretor />
+        <Footer />
       </header>
     </div>
   );
